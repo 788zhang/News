@@ -123,6 +123,7 @@
 		7A0284DB1C32398C005E451B /* 99-umbrella.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A02846C1C32398C005E451B /* 99-umbrella.png */; };
 		7A0284DC1C32398C005E451B /* tabBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A02846D1C32398C005E451B /* tabBar.png */; };
 		7A0284DF1C323A69005E451B /* NewsByZhangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0284DE1C323A69005E451B /* NewsByZhangViewController.m */; };
+		7A42F32E1C323EDA0026F315 /* new2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A42F32D1C323EDA0026F315 /* new2.plist */; };
 		DDB858F15054731E9418AFE0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5850851940974E7824E19B1B /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -250,6 +251,7 @@
 		7A02846D1C32398C005E451B /* tabBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBar.png; sourceTree = "<group>"; };
 		7A0284DD1C323A69005E451B /* NewsByZhangViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsByZhangViewController.h; sourceTree = "<group>"; };
 		7A0284DE1C323A69005E451B /* NewsByZhangViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsByZhangViewController.m; sourceTree = "<group>"; };
+		7A42F32D1C323EDA0026F315 /* new2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = new2.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -285,7 +287,8 @@
 		7A0283E81C32393E005E451B /* News */ = {
 			isa = PBXGroup;
 			children = (
-				7A0283FA1C323982005E451B /* 资源文件 */,
+				7A42F32D1C323EDA0026F315 /* new2.plist */,
+				7A0283FA1C323982005E451B /* zhiyuan */,
 				7A0283FB1C323982005E451B /* Model */,
 				7A0283FC1C323982005E451B /* View */,
 				7A0283FD1C323982005E451B /* viewControll */,
@@ -307,11 +310,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7A0283FA1C323982005E451B /* 资源文件 */ = {
+		7A0283FA1C323982005E451B /* zhiyuan */ = {
 			isa = PBXGroup;
 			children = (
 				7A0283FE1C32398B005E451B /* icons */,
 			);
+			name = zhiyuan;
 			path = "资源文件";
 			sourceTree = "<group>";
 		};
@@ -541,6 +545,7 @@
 				7A0284DB1C32398C005E451B /* 99-umbrella.png in Resources */,
 				7A02849E1C32398C005E451B /* 38-airplane.png in Resources */,
 				7A02847D1C32398C005E451B /* 105-piano.png in Resources */,
+				7A42F32E1C323EDA0026F315 /* new2.plist in Resources */,
 				7A0284CD1C32398C005E451B /* 85-trophy.png in Resources */,
 				7A0284961C32398C005E451B /* 30-key.png in Resources */,
 				7A0284BD1C32398C005E451B /* 69-display.png in Resources */,
