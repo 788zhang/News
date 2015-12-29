@@ -12,11 +12,10 @@
 		7A02834D1C3228F1005E451B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A02834C1C3228F1005E451B /* AppDelegate.m */; };
 		7A02834F1C3228F1005E451B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A02834E1C3228F1005E451B /* Assets.xcassets */; };
 		7A0283521C3228F1005E451B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0283501C3228F1005E451B /* LaunchScreen.storyboard */; };
-		7A02835C1C322915005E451B /* Model in Resources */ = {isa = PBXBuildFile; fileRef = 7A02835B1C322915005E451B /* Model */; };
-		7A02835E1C322926005E451B /* ViewController in Resources */ = {isa = PBXBuildFile; fileRef = 7A02835D1C322926005E451B /* ViewController */; };
-		7A0283601C322942005E451B /* View in Resources */ = {isa = PBXBuildFile; fileRef = 7A02835F1C322942005E451B /* View */; };
 		7A0283621C322963005E451B /* 资源文件 in Resources */ = {isa = PBXBuildFile; fileRef = 7A0283611C322962005E451B /* 资源文件 */; };
-		7A0283681C322D14005E451B /* NewsByZhangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0283671C322D14005E451B /* NewsByZhangViewController.m */; };
+		7A42F13F1C3230780026F315 /* news.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A42F13E1C3230780026F315 /* news.plist */; };
+		7A42F1461C3234A30026F315 /* NewsByZhangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A42F1451C3234A30026F315 /* NewsByZhangViewController.m */; };
+		7A42F2DA1C32353C0026F315 /* UINetWorkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A42F14A1C32353C0026F315 /* UINetWorkEngine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,12 +28,12 @@
 		7A02834E1C3228F1005E451B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A0283511C3228F1005E451B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A0283531C3228F1005E451B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A02835B1C322915005E451B /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
-		7A02835D1C322926005E451B /* ViewController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewController; sourceTree = "<group>"; };
-		7A02835F1C322942005E451B /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = View; sourceTree = "<group>"; };
-		7A0283611C322962005E451B /* 资源文件 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "资源文件"; sourceTree = "<group>"; };
-		7A0283661C322D14005E451B /* NewsByZhangViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsByZhangViewController.h; path = News/ViewController/NewsByZhangViewController.h; sourceTree = "<group>"; };
-		7A0283671C322D14005E451B /* NewsByZhangViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsByZhangViewController.m; path = News/ViewController/NewsByZhangViewController.m; sourceTree = "<group>"; };
+		7A0283611C322962005E451B /* 资源文件 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "资源文件"; path = "News/资源文件"; sourceTree = "<group>"; };
+		7A42F13E1C3230780026F315 /* news.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = news.plist; sourceTree = "<group>"; };
+		7A42F1441C3234A30026F315 /* NewsByZhangViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsByZhangViewController.h; sourceTree = "<group>"; };
+		7A42F1451C3234A30026F315 /* NewsByZhangViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsByZhangViewController.m; sourceTree = "<group>"; };
+		7A42F1491C32353C0026F315 /* UINetWorkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UINetWorkEngine.h; sourceTree = "<group>"; };
+		7A42F14A1C32353C0026F315 /* UINetWorkEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINetWorkEngine.m; sourceTree = "<group>"; };
 		E08B70EAEC8C2F484A9FC3A6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,8 +69,8 @@
 		7A02833C1C3228F1005E451B = {
 			isa = PBXGroup;
 			children = (
-				7A0283661C322D14005E451B /* NewsByZhangViewController.h */,
-				7A0283671C322D14005E451B /* NewsByZhangViewController.m */,
+				7A42F13E1C3230780026F315 /* news.plist */,
+				7A0283611C322962005E451B /* 资源文件 */,
 				7A0283471C3228F1005E451B /* News */,
 				7A0283461C3228F1005E451B /* Products */,
 				799E07E6317F08C38D5A7904 /* Pods */,
@@ -90,12 +89,12 @@
 		7A0283471C3228F1005E451B /* News */ = {
 			isa = PBXGroup;
 			children = (
-				7A0283611C322962005E451B /* 资源文件 */,
-				7A02835F1C322942005E451B /* View */,
-				7A02835D1C322926005E451B /* ViewController */,
-				7A02835B1C322915005E451B /* Model */,
 				7A02834B1C3228F1005E451B /* AppDelegate.h */,
 				7A02834C1C3228F1005E451B /* AppDelegate.m */,
+				7A42F14B1C32353C0026F315 /* Views */,
+				7A42F1471C32353C0026F315 /* Modes */,
+				7A42F1431C3234A30026F315 /* Controllers */,
+				7A42F1411C3233A60026F315 /* Views */,
 				7A02834E1C3228F1005E451B /* Assets.xcassets */,
 				7A0283501C3228F1005E451B /* LaunchScreen.storyboard */,
 				7A0283531C3228F1005E451B /* Info.plist */,
@@ -110,6 +109,41 @@
 				7A0283491C3228F1005E451B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A42F1411C3233A60026F315 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			path = Modes/Views;
+			sourceTree = "<group>";
+		};
+		7A42F1431C3234A30026F315 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7A42F1441C3234A30026F315 /* NewsByZhangViewController.h */,
+				7A42F1451C3234A30026F315 /* NewsByZhangViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7A42F1471C32353C0026F315 /* Modes */ = {
+			isa = PBXGroup;
+			children = (
+				7A42F1491C32353C0026F315 /* UINetWorkEngine.h */,
+				7A42F14A1C32353C0026F315 /* UINetWorkEngine.m */,
+			);
+			name = Modes;
+			path = Modes/Views/Modes;
+			sourceTree = "<group>";
+		};
+		7A42F14B1C32353C0026F315 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			path = Modes/Views/Modes/Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,11 +206,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A02835C1C322915005E451B /* Model in Resources */,
-				7A02835E1C322926005E451B /* ViewController in Resources */,
+				7A42F13F1C3230780026F315 /* news.plist in Resources */,
 				7A02834F1C3228F1005E451B /* Assets.xcassets in Resources */,
 				7A0283621C322963005E451B /* 资源文件 in Resources */,
-				7A0283601C322942005E451B /* View in Resources */,
 				7A0283521C3228F1005E451B /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,7 +269,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A02834D1C3228F1005E451B /* AppDelegate.m in Sources */,
-				7A0283681C322D14005E451B /* NewsByZhangViewController.m in Sources */,
+				7A42F1461C3234A30026F315 /* NewsByZhangViewController.m in Sources */,
+				7A42F2DA1C32353C0026F315 /* UINetWorkEngine.m in Sources */,
 				7A02834A1C3228F1005E451B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
