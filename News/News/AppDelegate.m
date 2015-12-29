@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "NewsByZhangViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -18,6 +18,29 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    UITabBarController *bar=[[UITabBarController alloc]init];
+    NewsByZhangViewController *zhang=[[NewsByZhangViewController alloc]init];
+    
+    zhang.navigationItem.title=@"鹏飞";
+    
+    UINavigationController *nav=[[UINavigationController alloc]initWithRootViewController:zhang];
+    
+    //标签  标题
+    nav.tabBarItem.title=@"鹏飞";
+    //标签 图片
+    nav.tabBarItem.image=[UIImage imageNamed: @"09-chat2.png"];
+
+    
+    
+    
+    bar.viewControllers=@[nav];
+    
+    
+    self.window.rootViewController=bar;
+    
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

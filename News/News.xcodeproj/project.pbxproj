@@ -122,6 +122,7 @@
 		7A0284DA1C32398C005E451B /* 98-palette.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A02846B1C32398C005E451B /* 98-palette.png */; };
 		7A0284DB1C32398C005E451B /* 99-umbrella.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A02846C1C32398C005E451B /* 99-umbrella.png */; };
 		7A0284DC1C32398C005E451B /* tabBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A02846D1C32398C005E451B /* tabBar.png */; };
+		7A0284DF1C323A69005E451B /* NewsByZhangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0284DE1C323A69005E451B /* NewsByZhangViewController.m */; };
 		DDB858F15054731E9418AFE0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5850851940974E7824E19B1B /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -247,6 +248,8 @@
 		7A02846B1C32398C005E451B /* 98-palette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "98-palette.png"; sourceTree = "<group>"; };
 		7A02846C1C32398C005E451B /* 99-umbrella.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "99-umbrella.png"; sourceTree = "<group>"; };
 		7A02846D1C32398C005E451B /* tabBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBar.png; sourceTree = "<group>"; };
+		7A0284DD1C323A69005E451B /* NewsByZhangViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsByZhangViewController.h; sourceTree = "<group>"; };
+		7A0284DE1C323A69005E451B /* NewsByZhangViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsByZhangViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -329,6 +332,8 @@
 		7A0283FD1C323982005E451B /* viewControll */ = {
 			isa = PBXGroup;
 			children = (
+				7A0284DD1C323A69005E451B /* NewsByZhangViewController.h */,
+				7A0284DE1C323A69005E451B /* NewsByZhangViewController.m */,
 			);
 			path = viewControll;
 			sourceTree = "<group>";
@@ -700,6 +705,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A0283EE1C32393E005E451B /* AppDelegate.m in Sources */,
+				7A0284DF1C323A69005E451B /* NewsByZhangViewController.m in Sources */,
 				7A0283EB1C32393E005E451B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
