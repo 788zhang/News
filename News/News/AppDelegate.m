@@ -5,13 +5,9 @@
 //  Created by scjy on 15/12/29.
 //  Copyright © 2015年 scjy. All rights reserved.
 //
-/**
- *  自己添加头文件，并把他加入tar  控制器中
- *
- *
- */
+
 #import "AppDelegate.h"
-#import "NewsByzhangViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -22,29 +18,6 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    
-    //张鹏飞
-    
-    UITabBarController *bar=[[UITabBarController alloc]init];
-    
-    
-    
-    NewsByzhangViewController *zhang=[[NewsByzhangViewController alloc]init];
-    
-    
-    UINavigationController *nav=[[UINavigationController alloc]initWithRootViewController:zhang];
-    
-    //标签  标题
-    nav.tabBarItem.title=@"鹏飞";
-    //标签 图片
-    nav.tabBarItem.image=[UIImage imageNamed: @"09-chat2.png"];
-   
-    bar.viewControllers=@[nav];
-
-    
-    
-    
-    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
