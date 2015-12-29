@@ -16,6 +16,7 @@
 		7A02835E1C322926005E451B /* ViewController in Resources */ = {isa = PBXBuildFile; fileRef = 7A02835D1C322926005E451B /* ViewController */; };
 		7A0283601C322942005E451B /* View in Resources */ = {isa = PBXBuildFile; fileRef = 7A02835F1C322942005E451B /* View */; };
 		7A0283621C322963005E451B /* 资源文件 in Resources */ = {isa = PBXBuildFile; fileRef = 7A0283611C322962005E451B /* 资源文件 */; };
+		7A0283681C322D14005E451B /* NewsByZhangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0283671C322D14005E451B /* NewsByZhangViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		7A02835D1C322926005E451B /* ViewController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewController; sourceTree = "<group>"; };
 		7A02835F1C322942005E451B /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = View; sourceTree = "<group>"; };
 		7A0283611C322962005E451B /* 资源文件 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "资源文件"; sourceTree = "<group>"; };
+		7A0283661C322D14005E451B /* NewsByZhangViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsByZhangViewController.h; path = News/ViewController/NewsByZhangViewController.h; sourceTree = "<group>"; };
+		7A0283671C322D14005E451B /* NewsByZhangViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsByZhangViewController.m; path = News/ViewController/NewsByZhangViewController.m; sourceTree = "<group>"; };
 		E08B70EAEC8C2F484A9FC3A6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +70,8 @@
 		7A02833C1C3228F1005E451B = {
 			isa = PBXGroup;
 			children = (
+				7A0283661C322D14005E451B /* NewsByZhangViewController.h */,
+				7A0283671C322D14005E451B /* NewsByZhangViewController.m */,
 				7A0283471C3228F1005E451B /* News */,
 				7A0283461C3228F1005E451B /* Products */,
 				799E07E6317F08C38D5A7904 /* Pods */,
@@ -232,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A02834D1C3228F1005E451B /* AppDelegate.m in Sources */,
+				7A0283681C322D14005E451B /* NewsByZhangViewController.m in Sources */,
 				7A02834A1C3228F1005E451B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
