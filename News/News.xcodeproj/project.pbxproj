@@ -123,6 +123,7 @@
 		7A0284DB1C32398C005E451B /* 99-umbrella.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A02846C1C32398C005E451B /* 99-umbrella.png */; };
 		7A0284DC1C32398C005E451B /* tabBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A02846D1C32398C005E451B /* tabBar.png */; };
 		7A0284DF1C323A69005E451B /* NewsByZhangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0284DE1C323A69005E451B /* NewsByZhangViewController.m */; };
+		7A0284E21C323E32005E451B /* NewByZhangTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0284E11C323E32005E451B /* NewByZhangTableViewCell.m */; };
 		DDB858F15054731E9418AFE0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5850851940974E7824E19B1B /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -250,6 +251,8 @@
 		7A02846D1C32398C005E451B /* tabBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBar.png; sourceTree = "<group>"; };
 		7A0284DD1C323A69005E451B /* NewsByZhangViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsByZhangViewController.h; sourceTree = "<group>"; };
 		7A0284DE1C323A69005E451B /* NewsByZhangViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsByZhangViewController.m; sourceTree = "<group>"; };
+		7A0284E01C323E32005E451B /* NewByZhangTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewByZhangTableViewCell.h; path = ../viewControll/NewByZhangTableViewCell.h; sourceTree = "<group>"; };
+		7A0284E11C323E32005E451B /* NewByZhangTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewByZhangTableViewCell.m; path = ../viewControll/NewByZhangTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -285,7 +288,7 @@
 		7A0283E81C32393E005E451B /* News */ = {
 			isa = PBXGroup;
 			children = (
-				7A0283FA1C323982005E451B /* 资源文件 */,
+				7A0283FA1C323982005E451B /* Sourse */,
 				7A0283FB1C323982005E451B /* Model */,
 				7A0283FC1C323982005E451B /* View */,
 				7A0283FD1C323982005E451B /* viewControll */,
@@ -307,11 +310,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7A0283FA1C323982005E451B /* 资源文件 */ = {
+		7A0283FA1C323982005E451B /* Sourse */ = {
 			isa = PBXGroup;
 			children = (
 				7A0283FE1C32398B005E451B /* icons */,
 			);
+			name = Sourse;
 			path = "资源文件";
 			sourceTree = "<group>";
 		};
@@ -325,6 +329,8 @@
 		7A0283FC1C323982005E451B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7A0284E01C323E32005E451B /* NewByZhangTableViewCell.h */,
+				7A0284E11C323E32005E451B /* NewByZhangTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -704,6 +710,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A0284E21C323E32005E451B /* NewByZhangTableViewCell.m in Sources */,
 				7A0283EE1C32393E005E451B /* AppDelegate.m in Sources */,
 				7A0284DF1C323A69005E451B /* NewsByZhangViewController.m in Sources */,
 				7A0283EB1C32393E005E451B /* main.m in Sources */,

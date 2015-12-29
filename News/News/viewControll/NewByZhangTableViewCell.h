@@ -1,5 +1,5 @@
 //
-//  NewsByZhangViewController.h
+//  NewByZhangTableViewCell.h
 //  News
 //
 //  Created by scjy on 15/12/29.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NewsByZhangViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@interface NewByZhangTableViewCell : UITableViewCell
 
 @end
