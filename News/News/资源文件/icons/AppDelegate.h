@@ -1,5 +1,5 @@
 //
-//  NewsByzhangViewController.h
+//  AppDelegate.h
 //  News
 //
 //  Created by scjy on 15/12/29.
@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NewsByzhangViewController : UIViewController
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
 
 @end
+
