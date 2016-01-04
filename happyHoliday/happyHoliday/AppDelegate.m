@@ -18,6 +18,72 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    
+    
+    UITabBarController *tabbar=[[UITabBarController alloc]init];
+    //首页
+    UIStoryboard *mainsb=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    
+    UINavigationController *mainNav=mainsb.instantiateInitialViewController;
+    //导航栏颜色
+    mainNav.navigationBar.barTintColor = [UIColor colorWithRed:27/255.0f green:185/255.0f blue:189/255.0f alpha:1.0];
+    
+    //mainNav.tabBarItem.title=@"主页";
+    mainNav.tabBarItem.image=[UIImage imageNamed:@"ft_home_normal_ic"];
+    UIImage *image=[UIImage imageNamed:@"ft_home_selected_ic"];
+    //按图片原来状态显示
+    mainNav.tabBarItem.selectedImage=[image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    
+    //上左下右
+    mainNav.tabBarItem.imageInsets=UIEdgeInsetsMake(6, 0, -6, 0);
+    
+    
+    
+    
+    
+    //发现
+    UIStoryboard *discoversb=[UIStoryboard storyboardWithName:@"Discover" bundle:nil];
+    
+    
+    UINavigationController *discoverNav=discoversb.instantiateInitialViewController;
+    
+    // discoverNav.tabBarItem.title=@"发现";
+    discoverNav.tabBarItem.image=[UIImage imageNamed:@"ft_found_normal_ic"];
+    UIImage *disimage=[UIImage imageNamed:@"ft_found_selected_ic"];
+    //按图片原来状态显示
+    discoverNav.tabBarItem.selectedImage=[disimage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    
+    discoverNav.tabBarItem.imageInsets=UIEdgeInsetsMake(6, 0, -6, 0);
+
+    
+    
+    //我的
+    UIStoryboard *minesb=[UIStoryboard storyboardWithName:@"Mine" bundle:nil];
+    
+    
+    UINavigationController *mineNav=minesb.instantiateInitialViewController;
+    
+    //mineNav.tabBarItem.title=@"我的";
+    mineNav.tabBarItem.image=[UIImage imageNamed:@"ft_person_normal_ic"];
+    
+    UIImage *mineimage=[UIImage imageNamed:@"ft_person_selected_ic"];
+    //按图片原来状态显示
+    mineNav.tabBarItem.selectedImage=[mineimage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    mineNav.tabBarItem.imageInsets=UIEdgeInsetsMake(6, 0, -6, 0);
+    
+
+    tabbar.viewControllers=@[mainNav,discoverNav,mineNav];
+    
+    tabbar.tabBar.backgroundColor=[UIColor whiteColor];
+
+    
+    self.window.rootViewController=tabbar;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

@@ -11,6 +11,14 @@
 		7AAF744F1C3A9A6F0069A910 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAF744E1C3A9A6F0069A910 /* AppDelegate.m */; };
 		7AAF74511C3A9A6F0069A910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AAF74501C3A9A6F0069A910 /* Assets.xcassets */; };
 		7AAF74541C3A9A6F0069A910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AAF74521C3A9A6F0069A910 /* LaunchScreen.storyboard */; };
+		7AAF746A1C3A9CA50069A910 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAF74691C3A9CA50069A910 /* MainViewController.m */; };
+		7AAF746D1C3A9CB50069A910 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAF746C1C3A9CB50069A910 /* DiscoverViewController.m */; };
+		7AAF74701C3A9CC30069A910 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAF746F1C3A9CC30069A910 /* MineViewController.m */; };
+		7AAF74731C3A9D400069A910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AAF74721C3A9D400069A910 /* Main.storyboard */; };
+		7AAF74751C3A9D4D0069A910 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AAF74741C3A9D4D0069A910 /* Discover.storyboard */; };
+		7AAF74771C3A9D590069A910 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AAF74761C3A9D590069A910 /* Mine.storyboard */; };
+		7AAF747E1C3AA7410069A910 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAF747C1C3AA7410069A910 /* MainTableViewCell.m */; };
+		7AAF747F1C3AA7410069A910 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AAF747D1C3AA7410069A910 /* MainTableViewCell.xib */; };
 		7F4333AF7FBDE3F38CEB7D0F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF11EF166937A663876C67CF /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +30,18 @@
 		7AAF74501C3A9A6F0069A910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AAF74531C3A9A6F0069A910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AAF74551C3A9A6F0069A910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AAF74681C3A9CA50069A910 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		7AAF74691C3A9CA50069A910 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		7AAF746B1C3A9CB50069A910 /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		7AAF746C1C3A9CB50069A910 /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		7AAF746E1C3A9CC30069A910 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		7AAF746F1C3A9CC30069A910 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		7AAF74721C3A9D400069A910 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7AAF74741C3A9D4D0069A910 /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
+		7AAF74761C3A9D590069A910 /* Mine.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Mine.storyboard; sourceTree = "<group>"; };
+		7AAF747B1C3AA7410069A910 /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		7AAF747C1C3AA7410069A910 /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		7AAF747D1C3AA7410069A910 /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
 		8AC05B8D6ACA0C0D6487E9E6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		BF11EF166937A663876C67CF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9129E515C19739E9ED63CD9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -68,9 +88,9 @@
 		7AAF74491C3A9A6F0069A910 /* happyHoliday */ = {
 			isa = PBXGroup;
 			children = (
-				7AAF744D1C3A9A6F0069A910 /* AppDelegate.h */,
-				7AAF744E1C3A9A6F0069A910 /* AppDelegate.m */,
+				7AAF745B1C3A9C7D0069A910 /* Classes */,
 				7AAF74501C3A9A6F0069A910 /* Assets.xcassets */,
+				7AAF74711C3A9CE50069A910 /* Resource */,
 				7AAF74521C3A9A6F0069A910 /* LaunchScreen.storyboard */,
 				7AAF74551C3A9A6F0069A910 /* Info.plist */,
 				7AAF744A1C3A9A6F0069A910 /* Supporting Files */,
@@ -81,9 +101,134 @@
 		7AAF744A1C3A9A6F0069A910 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7AAF744D1C3A9A6F0069A910 /* AppDelegate.h */,
+				7AAF744E1C3A9A6F0069A910 /* AppDelegate.m */,
 				7AAF744B1C3A9A6F0069A910 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AAF745B1C3A9C7D0069A910 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7AAF74601C3A9C7D0069A910 /* Main */,
+				7AAF745C1C3A9C7D0069A910 /* Discover */,
+				7AAF74641C3A9C7D0069A910 /* Mine */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7AAF745C1C3A9C7D0069A910 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				7AAF745D1C3A9C7D0069A910 /* Controller */,
+				7AAF745E1C3A9C7D0069A910 /* Model */,
+				7AAF745F1C3A9C7D0069A910 /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		7AAF745D1C3A9C7D0069A910 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7AAF746B1C3A9CB50069A910 /* DiscoverViewController.h */,
+				7AAF746C1C3A9CB50069A910 /* DiscoverViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7AAF745E1C3A9C7D0069A910 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7AAF745F1C3A9C7D0069A910 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AAF74741C3A9D4D0069A910 /* Discover.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7AAF74601C3A9C7D0069A910 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7AAF74611C3A9C7D0069A910 /* Controller */,
+				7AAF74621C3A9C7D0069A910 /* model */,
+				7AAF74631C3A9C7D0069A910 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7AAF74611C3A9C7D0069A910 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7AAF74681C3A9CA50069A910 /* MainViewController.h */,
+				7AAF74691C3A9CA50069A910 /* MainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7AAF74621C3A9C7D0069A910 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		7AAF74631C3A9C7D0069A910 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AAF74721C3A9D400069A910 /* Main.storyboard */,
+				7AAF747B1C3AA7410069A910 /* MainTableViewCell.h */,
+				7AAF747C1C3AA7410069A910 /* MainTableViewCell.m */,
+				7AAF747D1C3AA7410069A910 /* MainTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7AAF74641C3A9C7D0069A910 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				7AAF74651C3A9C7D0069A910 /* Controller */,
+				7AAF74661C3A9C7D0069A910 /* Model */,
+				7AAF74671C3A9C7D0069A910 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		7AAF74651C3A9C7D0069A910 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7AAF746E1C3A9CC30069A910 /* MineViewController.h */,
+				7AAF746F1C3A9CC30069A910 /* MineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7AAF74661C3A9C7D0069A910 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7AAF74671C3A9C7D0069A910 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AAF74761C3A9D590069A910 /* Mine.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7AAF74711C3A9CE50069A910 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resource;
+			path = Classes/Resource;
 			sourceTree = "<group>";
 		};
 		8EC5805B1DBC43ABB312DBA7 /* Pods */ = {
@@ -155,6 +300,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AAF747F1C3AA7410069A910 /* MainTableViewCell.xib in Resources */,
+				7AAF74731C3A9D400069A910 /* Main.storyboard in Resources */,
+				7AAF74751C3A9D4D0069A910 /* Discover.storyboard in Resources */,
+				7AAF74771C3A9D590069A910 /* Mine.storyboard in Resources */,
 				7AAF74511C3A9A6F0069A910 /* Assets.xcassets in Resources */,
 				7AAF74541C3A9A6F0069A910 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -215,7 +364,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AAF747E1C3AA7410069A910 /* MainTableViewCell.m in Sources */,
 				7AAF744F1C3A9A6F0069A910 /* AppDelegate.m in Sources */,
+				7AAF746D1C3A9CB50069A910 /* DiscoverViewController.m in Sources */,
+				7AAF74701C3A9CC30069A910 /* MineViewController.m in Sources */,
+				7AAF746A1C3A9CA50069A910 /* MainViewController.m in Sources */,
 				7AAF744C1C3A9A6F0069A910 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,6 +473,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = happyHoliday/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhang.happyHoliday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -332,6 +486,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = happyHoliday/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhang.happyHoliday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
