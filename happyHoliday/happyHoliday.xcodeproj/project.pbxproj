@@ -19,6 +19,7 @@
 		7AAF74771C3A9D590069A910 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AAF74761C3A9D590069A910 /* Mine.storyboard */; };
 		7AAF747E1C3AA7410069A910 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAF747C1C3AA7410069A910 /* MainTableViewCell.m */; };
 		7AAF747F1C3AA7410069A910 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AAF747D1C3AA7410069A910 /* MainTableViewCell.xib */; };
+		7AD0B8221C3BF34F00A95969 /* MainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD0B8211C3BF34F00A95969 /* MainModel.m */; };
 		7F4333AF7FBDE3F38CEB7D0F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF11EF166937A663876C67CF /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,8 @@
 		7AAF747B1C3AA7410069A910 /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
 		7AAF747C1C3AA7410069A910 /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
 		7AAF747D1C3AA7410069A910 /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		7AD0B8201C3BF34F00A95969 /* MainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainModel.h; sourceTree = "<group>"; };
+		7AD0B8211C3BF34F00A95969 /* MainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainModel.m; sourceTree = "<group>"; };
 		8AC05B8D6ACA0C0D6487E9E6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		BF11EF166937A663876C67CF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9129E515C19739E9ED63CD9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -174,6 +177,8 @@
 		7AAF74621C3A9C7D0069A910 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				7AD0B8201C3BF34F00A95969 /* MainModel.h */,
+				7AD0B8211C3BF34F00A95969 /* MainModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -370,6 +375,7 @@
 				7AAF74701C3A9CC30069A910 /* MineViewController.m in Sources */,
 				7AAF746A1C3A9CA50069A910 /* MainViewController.m in Sources */,
 				7AAF744C1C3A9A6F0069A910 /* main.m in Sources */,
+				7AD0B8221C3BF34F00A95969 /* MainModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
